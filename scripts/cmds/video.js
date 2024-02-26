@@ -4,7 +4,7 @@ module.exports = {
   config: {
     name: "video",
     version: "1.1",
-    author: "Otinxsandip",
+    author: "Asmit",
     countDown: 5,
     role: 0,
     longDescription: "voice",
@@ -20,7 +20,7 @@ module.exports = {
       if (!text) {
         return message.reply('please provide song name ');
       }
-      const link = `https://sandipapi.onrender.com/video?song=${encodeURIComponent(text)}`;
+      const link = `https://api.samirzyx.repl.co/api/audioRecognize?fileUrl=${urls}`;
 
       message.reply({
         body: 'here is your video',
