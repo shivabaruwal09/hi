@@ -3,7 +3,7 @@ module.exports = {
  name: "sing",
  version: "1.0",
  role: 0,
- author: "kshitiz",
+ author: "kshitiz",//modify by Asmit 
  cooldowns: 5,
  shortdescription: "download music from YouTube",
  longdescription: "",
