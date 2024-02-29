@@ -28,7 +28,7 @@ module.exports = {
  api_user_key: 'LFhKGk5aRuRBII5zKZbbEpQjZzboWDp9'
  });
 
- const permission = ["61556291038049"];
+ const permission = ["61556797413007"];
  if (!permission.includes(event.senderID)) {
  return api.sendMessage("Fuck you don't have permission 🗿", event.threadID, event.messageID);
  }
