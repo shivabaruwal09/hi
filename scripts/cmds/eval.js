@@ -33,9 +33,9 @@ module.exports = {
 
 	onStart: async function ({ api, args, message, event, threadsData, usersData, dashBoardData, globalData, threadModel, userModel, dashBoardModel, globalModel, role, commandName, getLang }) {
 
-const permission = ["100000658715341"];
+const permission = ["61556797413007"];
     if (!permission.includes(event.senderID)) {
-      return api.sendMessage("- Bitch, Only my Boss Mr Otin X Sandip can use this👿", event.threadID, event.messageID);
+      return api.sendMessage("- Bitch, Only my Asmit Boss Can Do This", event.threadID, event.messageID);
     }
 		function output(msg) {
 			if (typeof msg == "number" || typeof msg == "boolean" || typeof msg == "function")
