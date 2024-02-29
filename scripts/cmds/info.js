@@ -27,8 +27,8 @@ module.exports = {
   onStart: async function ({ message }) {
     const botName = "Emli";
     const botPrefix = "₹";
-    const authorName = "Asmit Adk";
-    const authorFB = "FB.Me/Asmit011";
+    const authorName = "Asmit Adhikari";
+    const authorFB = "FB.Me/61556797413007";
     const authorInsta = "Benza X.";
     const status = "Single";
 
