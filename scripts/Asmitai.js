@@ -2,8 +2,8 @@ const axios = require('axios');
 const fs = require("fs-extra");
 module.exports = {
   config: {
-    name: "Emli",
-aliases: ["ai"], 
+    name: "asmitai",
+aliases: ["Asai"], 
     version: 2.0,
     author: "OtinXSandip",
     longDescription: "ai with diff utilities",
